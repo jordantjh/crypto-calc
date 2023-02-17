@@ -9,7 +9,6 @@ import { styled } from '@mui/material/styles';
 
 // Icons
 import CalculateIcon from '@mui/icons-material/Calculate';
-import { fontSize } from '@mui/system';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
