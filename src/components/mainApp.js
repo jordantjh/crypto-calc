@@ -61,11 +61,11 @@ const MainApp = () => {
                     <Grid container spacing={1} sx={{flexGrow:1}} >
                         <Grid xs={6}>
                             <label style={{marginRight:'6px'}}>Current Entry Price</label>
-                            <Input size="sm" sx={{input: {textAlign:'center'}}} placeholder={curEntryPrice} onChange={(event) => setCurEntryPrice(event.target.value)} />
+                            <Input color='secondary'  size="sm" sx={{input: {textAlign:'center'}}} placeholder={curEntryPrice} onChange={(event) => setCurEntryPrice(event.target.value)} />
                         </Grid>
                         <Grid xs={6}>
                             <label style={{marginRight:'6px'}}>Current Quantity</label>
-                            <Input size="sm" sx={{input: {textAlign:'center'}}} placeholder={curQty} onChange={(event) => setCurQty(event.target.value)} />
+                            <Input color='secondary' size="sm" sx={{input: {textAlign:'center'}}} placeholder={curQty} onChange={(event) => setCurQty(event.target.value)} />
                         </Grid>
                     </Grid>
                 </Item>
@@ -73,11 +73,11 @@ const MainApp = () => {
                     <Grid container spacing={1} sx={{flexGrow:1}} >
                         <Grid xs={6}>
                             <label style={{marginRight:'6px'}}>Throttle Price</label>
-                            <Input size="sm" sx={{input: {textAlign:'center'}}} placeholder={curThrottlePrice} onChange={(event) => setCurThrottlePrice(event.target.value)} />
+                            <Input color='secondary'  size="sm" sx={{input: {textAlign:'center'}}} placeholder={curThrottlePrice} onChange={(event) => setCurThrottlePrice(event.target.value)} />
                         </Grid>
                         <Grid xs={6}>
                             <label style={{marginRight:'6px'}}>Throttle Quantity</label>
-                            <Input size="sm" sx={{input: {textAlign:'center'}}} placeholder={curThrottleQty} onChange={(event) => setCurThrottleQty(event.target.value)} />
+                            <Input color='secondary'  size="sm" sx={{input: {textAlign:'center'}}} placeholder={curThrottleQty} onChange={(event) => setCurThrottleQty(event.target.value)} />
                         </Grid>
                     </Grid>
                 </Item>
@@ -85,7 +85,7 @@ const MainApp = () => {
                     <Grid container spacing={1} sx={{flexGrow:1}} >
                         <Grid xs={6}>
                             <label style={{marginRight:'6px'}}>Resulting Average Entry Price</label>
-                            <Input size="sm" sx={{input: {textAlign:'center'}}} placeholder={resAvgEP} onChange={(event) => setResAvgEP(event.target.value)} />
+                            <Input color='secondary'  size="sm" sx={{input: {textAlign:'center'}}} placeholder={resAvgEP} onChange={(event) => setResAvgEP(event.target.value)} />
                         </Grid>
                         <Grid xs={6}>
                             {resultText}: <span style={{fontSize:'160%'}}>{resultFigure}</span>
